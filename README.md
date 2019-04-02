@@ -38,11 +38,10 @@ edit autoexec.bat
 ```
 > 실력과 관계없이 누구나 개발 환경을 설치할 수 있어야 한다. 사용자가 설치 과정 중 좌절하지 않게 최대한 자세하고 친절하게 작성한다. 운영 체제 별(OS X/Linux/Windows 등) 설치 방법도 작성한다. 가능한 사용자가 간단한 명령어로 설치를 끝내도록 설치 과정을 간결하게 만드는 것이 좋다.
 
+## 코드 예제, 사용 예제
 
-## 사용 예제
-
+> 설치 이후 실제 사용 방법 가이드를 작성한다. 코드 예제와 실제 적용 사례를 보여준다.
 스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
-
 _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 
 ## 개발 환경 설정
@@ -53,6 +52,8 @@ _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 make install
 npm test
 ```
+
+>잠재적인 컨트리뷰터가 당신의 프로젝트에 기여할 수 있도록 명확한 가이드를 제시한다. 개발 의존성 설치와 자동 테스트 슈트를 실행해 사용자가 개발 환경을 올바르게 설정했는지 확인할 수 있게 한다. 또한 신규 버전 소프트웨어를 빌드하고 릴리스하는 방법도 작성한다.
 
 ## 업데이트 내역
 
@@ -68,6 +69,8 @@ npm test
     * 수정: `foo()` 메서드 네이밍을 `bar()`로 수정
 * 0.0.1
     * 작업 진행 중
+    
+>사용자는 마지막 버전과 비교하여 어떤 변경 사항이 있었는지 확인할 수 있어야 한다. 기능 개선과 수정 내역을 함축적으로 정리하여 로그 변경 히스토리를 관리한다.
 
 ## 정보
 
@@ -85,6 +88,15 @@ XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할
 4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 
 5. 풀리퀘스트를 보내주세요.
 
+> 깃허브 리퍼지토리 대부분은 오픈 소스다. 누구나 소스 코드를 다운받아 개발 환경을 구축할 수 있고 개선시킬 수 있다. 당신의 프로젝트에 관심을 가진 누군가 직접 기여할 수 있다. 따라서 개발 프로세스와 기여 방법에 관한 명확한 지침을 제공해야 한다.
+
+## 크레딧 
+> 오픈 소스 프로젝트를 사용해 만들었거나, 누군가로부터 큰 도움을 받았거나, 크게 기여한 사람이 있다면 잊지 않고 꼭 언급하자.
+
+## 라이센스
+> 라이센스를 명시하고 디렉터리에 LICENSE.txt를 포함시키자.  오픈 소스 라이센스(영문), 오픈소스 SW 라이센스 종합시스템(국문) 라이센스 목록을 확인할 수 있다. 가장 많이 쓰는 라이센스는 MIT 라이센스, Apache 2.0 라이센스, ISC 라이센스, BSD 라이센스다.
+<https://www.olis.or.kr/license/licenseGuide.do>
+
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
@@ -92,3 +104,4 @@ XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+
