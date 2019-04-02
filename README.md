@@ -97,6 +97,9 @@ XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할
 > 라이센스를 명시하고 디렉터리에 LICENSE.txt를 포함시키자.  오픈 소스 라이센스(영문), 오픈소스 SW 라이센스 종합시스템(국문) 라이센스 목록을 확인할 수 있다. 가장 많이 쓰는 라이센스는 MIT 라이센스, Apache 2.0 라이센스, ISC 라이센스, BSD 라이센스다.
 <https://www.olis.or.kr/license/licenseGuide.do>
 
+## 연락처
+> 연락처는 프로젝트 신뢰성을 뒷받침해준다. 프로젝트 담당자 또는 팀원들의 깃허브 프로필 링크, 트위터, 이메일 등 연락처 정보를 기입한다. 별도로 전문적이고 공식적인 트위터를 만들고 프로젝트 진행 상황과 업데이트 소식을 알리며 적극적으로 내 프로젝트를 홍보하자.
+
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
